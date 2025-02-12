@@ -1,0 +1,152 @@
+#include <dt-bindings/zmk/mouse.h>
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    combos {
+        compatible = "zmk,combos";
+
+        Eisu {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <21 22>;
+        };
+
+        Kana {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <27 28>;
+        };
+
+        LeftClick {
+            bindings = <&mkp LCLK>;
+            key-positions = <16 17>;
+        };
+
+        RightClick {
+            bindings = <&mkp RCLK>;
+            key-positions = <17 18>;
+        };
+
+        MiddleClick {
+            bindings = <&mkp MCLK>;
+            key-positions = <18 16>;
+        };
+
+        Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <15 16>;
+        };
+    };
+
+    behaviors {
+        home_row_shifts: home_row_shifts {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOME_ROW_SHIFTS";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <180>;
+            flavor = "balanced";
+        };
+
+        home_row_mods_left: home_row_mods_left {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOME_ROW_MODS_LEFT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            hold-trigger-key-positions = <5 15 25 32 33 26 28 27 29 19 18 17 16 6 7 8 9>;
+            hold-trigger-on-release;
+        };
+
+        home_row_mods_right: home_row_mods_right {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOME_ROW_MODS_RIGHT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            hold-trigger-key-positions = <31 30 20 21 22 23 24 14 13 12 11 10 0 1 2 3 4>;
+            hold-trigger-on-release;
+        };
+
+        home_row_mods_num: home_row_mods_num {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOME_ROW_MODS_NUM";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            retro-tap;
+        };
+
+        layer_tap_thumbs: layer_tap_thumbs {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_TAP_THUMBS";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+
+        layer_tap_arrows: layer_tap_arrows {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_TAP_ARROWS";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+        };
+
+        layer_tap_scroll: layer_tap_scroll {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_TAP_SCROLL";
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            flavor = "tap-preferred";
+            bindings = <&mo>, <&kp>;
+        };
+
+        thumb_mods: thumb_mods {
+            compatible = "zmk,behavior-hold-tap";
+            label = "THUMB_MODS";
+            #binding-cells = <2>;
+            tapping-term-ms = <180>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+    };
+
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+&kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp A  &home_row_mods_left LEFT_GUI S  &home_row_mods_left LEFT_ALT D  &home_row_shifts LEFT_SHIFT F  &kp G  &kp H  &home_row_shifts RIGHT_SHIFT J  &home_row_mods_right RIGHT_ALT K  &home_row_mods_right RIGHT_GUI L  &layer_tap_arrows 3 MINUS  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &layer_tap_scroll 3 M  &kp COMMA  &kp DOT  &kp SLASH  &layer_tap_thumbs 1 SPACE  &thumb_mods LCTRL TAB  &layer_tap_thumbs 2 ENTER  &kp BACKSPACE
+            >;
+        };
+
+        layer1 {
+            bindings = <
+&kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp ESCAPE  &none  &none  &kp EQUAL  &kp SINGLE_QUOTE  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LEFT_BRACKET  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp RS(NUMBER_6)  &kp RS(NUMBER_7)  &kp RS(NUMBER_8)  &kp RS(NUMBER_9)  &kp RS(INT1)  &kp SLASH  &kp LS(SINGLE_QUOTE)  &kp MINUS  &kp LS(SEMICOLON)  &none  &kp RS(INT3)  &kp SEMICOLON  &kp RS(RIGHT_BRACKET)  &kp RS(BACKSLASH)  &kp INT_RO  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer2 {
+            bindings = <
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp NUMBER_1  &home_row_mods_num LEFT_GUI NUMBER_2  &home_row_mods_num LEFT_ALT NUMBER_3  &home_row_mods_num LEFT_SHIFT NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &home_row_mods_num RIGHT_SHIFT NUMBER_7  &home_row_mods_num RIGHT_ALT NUMBER_8  &home_row_mods_num RIGHT_GUI NUMBER_9  &kp NUMBER_0  &kp SLASH  &kp LS(SINGLE_QUOTE)  &kp MINUS  &kp LS(SEMICOLON)  &none  &kp F11  &kp F12  &kp COMMA  &kp DOT  &none  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer3 {
+            bindings = <
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &kp UP  &none  &none  &none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &none  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &trans  &kp DELETE  &trans
+            >;
+        };
+    };
+};

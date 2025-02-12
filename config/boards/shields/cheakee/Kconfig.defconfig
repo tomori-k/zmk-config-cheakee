@@ -1,0 +1,25 @@
+# The left part is a central.
+if SHIELD_CHEAKEE_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Cheakee"
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+# The right is a peripheral.
+if SHIELD_CHEAKEE_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+endif

@@ -1,0 +1,8 @@
+file_format: "1"
+id: cheakee
+name: Cheakee
+type: shield
+url: https://github.com/tomori-k/cheakee/
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
