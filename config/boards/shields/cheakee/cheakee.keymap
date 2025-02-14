@@ -31,6 +31,11 @@
             bindings = <&mkp MCLK>;
             key-positions = <18 16>;
         };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <11 12>;
+        };
     };
 
     behaviors {
