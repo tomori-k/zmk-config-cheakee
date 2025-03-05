@@ -1,0 +1,6 @@
+name: zmk-driver-paw32xx
+build:
+  cmake: .
+  kconfig: Kconfig
+  settings:
+    dts_root: .
