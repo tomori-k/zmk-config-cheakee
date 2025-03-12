@@ -11,6 +11,9 @@ config ZMK_SPLIT
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_POINTING
+    default y
+
 endif
 
 # The right is a peripheral.
@@ -20,6 +23,24 @@ config ZMK_SPLIT
     default y
 
 config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+config SPI
+    default y
+
+config INPUT
+    default y
+
+config INPUT_PAW32XX
+    default y
+
+config ZMK_POINTING
+    default y
+
+config NFCT_PINS_AS_GPIOS
+    default y
+
+config ZMK_USB
     default n
 
 endif
