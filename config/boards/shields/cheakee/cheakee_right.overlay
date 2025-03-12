@@ -40,8 +40,8 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         motion-gpios = <&gpio0 10 GPIO_ACTIVE_LOW>;
-        zephyr,axis-x = <0x00>;
-        zephyr,axis-y = <0x01>;
+        zephyr,axis-x = <INPUT_REL_X>;
+        zephyr,axis-y = <INPUT_REL_Y>;
     };
 };
 
