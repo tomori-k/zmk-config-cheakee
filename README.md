@@ -4,12 +4,10 @@
 
 ### 初回設定
 
-基本的に ZMK のドキュメントの手順に従っている。v0.1.0 に固定しているところが少し違う。v0.1.0 に固定しているのは最新のコードだとビルドが通らないため。対応は TODO。
-
 1. プロジェクト管理用ディレクトリに移動
 1. `git clone https://github.com/zmkfirmware/zmk.git`
 1. `cd zmk`
-1. `git checkout v0.1.0`
+1. `git checkout v0.2.1`
 1. Docker ボリュームの作成
     - `docker volume create --driver local -o o=bind -o type=none -o device="このリポジトリのローカル環境でのディレクトリへの絶対パス" zmk-config`
     - プロジェクト管理用ディレクトリに `zmk-modules` というディレクトリを作成し、 `docker volume create --driver local -o o=bind -o type=none -o device="zmk-modulesへの絶対パス" zmk-modules`
