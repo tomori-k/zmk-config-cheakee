@@ -45,7 +45,8 @@
     };
 };
 
-&trackball_split {
+&trackball_listener {
+    status = "okay";
     device = <&trackball>;
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP)>;
 };

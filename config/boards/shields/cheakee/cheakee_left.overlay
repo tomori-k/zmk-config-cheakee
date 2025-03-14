@@ -1,5 +1,1 @@
 #include "cheakee.dtsi"
-
-&trackball_listener {
-    status = "okay";
-};
