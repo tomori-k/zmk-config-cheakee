@@ -34,7 +34,7 @@ config SPI
 config INPUT
     default y
 
-config INPUT_PAW32XX
+config PMW3610
     default y
 
 config ZMK_POINTING
