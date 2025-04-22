@@ -1,7 +1,7 @@
-#include <dt-bindings/zmk/pointing.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     combos {
@@ -118,7 +118,7 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp A  &home_row_mods_left LEFT_GUI S  &home_row_mods_left LEFT_ALT D  &home_row_shifts LEFT_SHIFT F  &home_row_mods_left LCTRL G  &home_row_mods_right RCTRL H  &home_row_shifts RIGHT_SHIFT J  &home_row_mods_right RIGHT_ALT K  &home_row_mods_right RIGHT_GUI L  &layer_tap_arrows 3 MINUS  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &layer_tap_scroll 3 M  &kp COMMA  &kp DOT  &kp SLASH &kp BACKSPACE &layer_tap_thumbs 1 SPACE &kp BACKSPACE &layer_tap_thumbs 2 ENTER
+&kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp A  &home_row_mods_left LEFT_GUI S  &home_row_mods_left LEFT_ALT D  &home_row_shifts LEFT_SHIFT F  &home_row_mods_left LCTRL G  &home_row_mods_right RCTRL H  &home_row_shifts RIGHT_SHIFT J  &home_row_mods_right RIGHT_ALT K  &home_row_mods_right RIGHT_GUI L  &layer_tap_arrows 3 MINUS  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &layer_tap_scroll 3 M  &kp COMMA  &kp DOT  &kp SLASH  &kp BACKSPACE  &layer_tap_thumbs 1 SPACE  &none  &layer_tap_thumbs 2 ENTER
             >;
         };
 
