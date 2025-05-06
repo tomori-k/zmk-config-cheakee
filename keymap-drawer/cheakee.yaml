@@ -146,13 +146,18 @@ combos:
   l: [default]
 - p: [27, 28]
   k: あいう
+  l: [default]
 - p: [16, 17]
   k: LCLK
+  l: [default]
 - p: [17, 18]
   k: RCLK
+  l: [default]
 - p: [18, 16]
   k: MCLK
+  l: [default]
   a: top
   o: 0.15
 - p: [11, 12]
   k: Tab
+  l: [default]

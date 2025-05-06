@@ -490,28 +490,6 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="490" y="127" width="28" height="26" class="combo"/>
-<text x="504" y="140" class="combo tap">あいう</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="434" y="71" width="28" height="26" class="combo"/>
-<text x="448" y="84" class="combo tap">LCLK</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="490" y="71" width="28" height="26" class="combo"/>
-<text x="504" y="84" class="combo tap">RCLK</text>
-</g>
-<g class="combo combopos-3">
-<path d="M476,47 h50 a6.0,6.0 0 0 1 6.0,6.0 v13" class="combo"/>
-<path d="M476,47 h-50 a6.0,6.0 0 0 0 -6.0,6.0 v13" class="combo"/>
-<rect rx="6" ry="6" x="462" y="34" width="28" height="26" class="combo"/>
-<text x="476" y="47" class="combo tap">MCLK</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">Tab</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 560)" class="layer-layer2">
@@ -658,28 +636,6 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(420, 196)" class="key held keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="490" y="127" width="28" height="26" class="combo"/>
-<text x="504" y="140" class="combo tap">あいう</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="434" y="71" width="28" height="26" class="combo"/>
-<text x="448" y="84" class="combo tap">LCLK</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="490" y="71" width="28" height="26" class="combo"/>
-<text x="504" y="84" class="combo tap">RCLK</text>
-</g>
-<g class="combo combopos-3">
-<path d="M476,47 h50 a6.0,6.0 0 0 1 6.0,6.0 v13" class="combo"/>
-<path d="M476,47 h-50 a6.0,6.0 0 0 0 -6.0,6.0 v13" class="combo"/>
-<rect rx="6" ry="6" x="462" y="34" width="28" height="26" class="combo"/>
-<text x="476" y="47" class="combo tap">MCLK</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">Tab</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 840)" class="layer-layer3">
@@ -813,28 +769,6 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(420, 196)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="490" y="127" width="28" height="26" class="combo"/>
-<text x="504" y="140" class="combo tap">あいう</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="434" y="71" width="28" height="26" class="combo"/>
-<text x="448" y="84" class="combo tap">LCLK</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="490" y="71" width="28" height="26" class="combo"/>
-<text x="504" y="84" class="combo tap">RCLK</text>
-</g>
-<g class="combo combopos-3">
-<path d="M476,47 h50 a6.0,6.0 0 0 1 6.0,6.0 v13" class="combo"/>
-<path d="M476,47 h-50 a6.0,6.0 0 0 0 -6.0,6.0 v13" class="combo"/>
-<rect rx="6" ry="6" x="462" y="34" width="28" height="26" class="combo"/>
-<text x="476" y="47" class="combo tap">MCLK</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="98" y="71" width="28" height="26" class="combo"/>
-<text x="112" y="84" class="combo tap">Tab</text>
 </g>
 </g>
 </g>
