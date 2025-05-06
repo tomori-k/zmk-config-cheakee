@@ -1,5 +1,7 @@
 # zmk-config-cheakee
 
+![Current Keymap](./keymap-drawer/cheakee.svg)
+
 ## ファームウェアのローカルでのビルド
 
 ### 初回設定
