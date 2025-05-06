@@ -16,26 +16,31 @@
         Kana {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <27 28>;
+            layers = <0>;
         };
 
         LeftClick {
             bindings = <&mkp LCLK>;
             key-positions = <16 17>;
+            layers = <0>;
         };
 
         RightClick {
             bindings = <&mkp RCLK>;
             key-positions = <17 18>;
+            layers = <0>;
         };
 
         MiddleClick {
             bindings = <&mkp MCLK>;
             key-positions = <18 16>;
+            layers = <0>;
         };
 
         Tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
+            layers = <0>;
         };
     };
 
