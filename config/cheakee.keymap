@@ -124,7 +124,7 @@
 
         layer1 {
             bindings = <
-&kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp ESCAPE  &none  &none  &kp EQUAL  &kp SINGLE_QUOTE  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LEFT_BRACKET  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp RS(NUMBER_6)  &kp RS(NUMBER_7)  &kp RS(NUMBER_8)  &kp RS(NUMBER_9)  &kp RS(INT1)  &kp SLASH  &kp LS(SINGLE_QUOTE)  &kp MINUS  &kp LS(SEMICOLON)  &none  &kp RS(INT3)  &kp SEMICOLON  &kp RS(RIGHT_BRACKET)  &kp RS(BACKSLASH)  &kp INT_RO  &trans  &trans  &trans  &trans
+&kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp ESCAPE  &none  &none  &kp EQUAL  &kp SINGLE_QUOTE  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LEFT_BRACKET  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp RS(NUMBER_6)  &kp RS(NUMBER_7)  &kp RS(NUMBER_8)  &kp RS(NUMBER_9)  &kp RS(INT1)  &kp SLASH  &kp LS(SINGLE_QUOTE)  &kp MINUS  &kp LS(SEMICOLON)  &none  &kp RS(INT3)  &kp SEMICOLON  &kp RS(RIGHT_BRACKET)  &kp RS(BACKSLASH)  &kp INT3  &trans  &trans  &trans  &trans
             >;
         };
 

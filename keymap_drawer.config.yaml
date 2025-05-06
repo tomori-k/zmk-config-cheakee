@@ -1,0 +1,135 @@
+draw_config:
+  dark_mode: auto
+
+parse_config:
+  raw_binding_map:
+    "&mkp LCLK": LCLK
+    "&mkp RCLK": RCLK
+    "&mkp MCLK": MCLK
+    "&bt BT_SEL 0":
+      shifted: ""
+      tap: $$mdi:bluetooth-connect$$
+      hold: 1
+    "&bt BT_SEL 1":
+      shifted: ""
+      tap: $$mdi:bluetooth-connect$$
+      hold: 2
+    "&bt BT_SEL 2":
+      shifted: ""
+      tap: $$mdi:bluetooth-connect$$
+      hold: 3
+    "&bt BT_SEL 3":
+      shifted: ""
+      tap: $$mdi:bluetooth-connect$$
+      hold: 4
+    "&bt BT_SEL 4":
+      shifted: ""
+      tap: $$mdi:bluetooth-connect$$
+      hold: 5
+    "&kp LS(NUMBER_1)": '!'
+    "&kp LS(NUMBER_2)": '"'
+    "&kp LS(NUMBER_3)": '#'
+    "&kp LS(NUMBER_4)": '$'
+    "&kp LS(NUMBER_5)": '%'
+    "&kp RS(NUMBER_6)": '&'
+    "&kp RS(NUMBER_7)": ''''
+    "&kp RS(NUMBER_8)": '('
+    "&kp RS(NUMBER_9)": ')'
+    "&kp LS(SINGLE_QUOTE)": '*'
+    "&kp LS(SEMICOLON)": '+'
+    "&kp RS(INT1)": '_'
+    "&kp RS(INT3)": '|'
+    "&kp LS(EQUAL)": '~'
+    "&kp LS(LEFT_BRACKET)": '`'
+    "&kp RS(RIGHT_BRACKET)": '{'
+    "&kp RS(BACKSLASH)": '}'
+  zmk_keycode_map:
+    BACKSPACE: $$mdi:backspace$$
+    DELETE: $$mdi:backspace-reverse$$
+    SPACE: $$mdi:keyboard-space$$
+    ENTER: $$mdi:keyboard-return$$
+    TAB: Tab
+    LCTRL: ⌃
+    RCTRL: ⌃
+    UP: $$mdi:chevron-up$$
+    DOWN: $$mdi:chevron-down$$
+    LEFT: $$mdi:chevron-left$$
+    RIGHT: $$mdi:chevron-right$$
+    ESCAPE: ESC
+    "LEFT_SHIFT": $$mdi:apple-keyboard-shift$$
+    "RIGHT_SHIFT": $$mdi:apple-keyboard-shift$$
+    "LEFT_GUI": $$mdi:apple-keyboard-command$$
+    "RIGHT_GUI": $$mdi:apple-keyboard-command$$
+    "LEFT_ALT": $$mdi:apple-keyboard-option$$
+    "RIGHT_ALT": $$mdi:apple-keyboard-option$$
+
+    LANGUAGE_1: 'あいう'
+    LANGUAGE_2: 'ABC'
+    INT3: '¥'
+
+    EXCLAMATION: '!'
+    EXCL: '!'
+    AT_SIGN: '"'
+    AT: '"'
+    HASH: '#'
+    POUND: '#'
+    DOLLAR: $
+    DLLR: $
+    PERCENT: '%'
+    PRCNT: '%'
+    CARET: '&'
+    AMPERSAND: ''''
+    AMPS: '&'
+    ASTERISK: '('
+    ASTRK: '('
+    STAR: '('
+    LEFT_PARENTHESIS: )
+    LPAR: )
+    RIGHT_PARENTHESIS: 'Shift+0'
+    RPAR: 'Shift+0'
+    EQUAL: '^'
+    PLUS: '~'
+    MINUS: '-'
+    UNDERSCORE: '='
+    UNDER: '='
+    SLASH: /
+    FSLH: /
+    QUESTION: '?'
+    QMARK: '?'
+    BACKSLASH: ']'
+    BSLH: ']'
+    PIPE: '}'
+    NON_US_BACKSLASH: \
+    PIPE2: '|'
+    NON_US_BSLH: '|'
+    SEMICOLON: ;
+    SEMI: ;
+    COLON: '+'
+    SINGLE_QUOTE: ':'
+    SQT: ':'
+    APOSTROPHE: ':'
+    APOS: ':'
+    DOUBLE_QUOTES: '*'
+    DQT: '*'
+    COMMA: ','
+    LESS_THAN: <
+    LT: <
+    PERIOD: .
+    DOT: .
+    GREATER_THAN: '>'
+    GT: '>'
+    LEFT_BRACKET: '@'
+    LBKT: '@'
+    LEFT_BRACE: '`'
+    LBRC: '`'
+    RIGHT_BRACKET: '['
+    RBKT: '['
+    RIGHT_BRACE: '{'
+    RBRC: '{'
+    GRAVE: '`'
+    TILDE: '~'
+    NON_US_HASH: '#'
+    NUHS: '#'
+    TILDE2: '~'
+  zmk_combos:
+    MiddleClick: { align: top, o: 0.15 }
