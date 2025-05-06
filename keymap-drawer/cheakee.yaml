@@ -143,6 +143,7 @@ layers:
 combos:
 - p: [21, 22]
   k: ABC
+  l: [default]
 - p: [27, 28]
   k: あいう
 - p: [16, 17]
