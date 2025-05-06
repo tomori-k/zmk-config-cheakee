@@ -36,6 +36,12 @@
     chosen {
         zmk,physical-layout = &physical_layout0;
     };
+
+
+    trackball_listener: trackball_listener {
+        compatible = "zmk,input-listener";
+        status = "disabled";
+    };
 };
 
 &physical_layout0 {

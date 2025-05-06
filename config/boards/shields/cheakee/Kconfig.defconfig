@@ -1,14 +1,13 @@
 # The left part is a central.
 if SHIELD_CHEAKEE_LEFT
 
-# Name must be less than 16 characters long!
-config ZMK_KEYBOARD_NAME
-    default "Cheakee"
-
 config ZMK_SPLIT
     default y
 
 config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
+config ZMK_POINTING
     default y
 
 endif
@@ -16,10 +15,32 @@ endif
 # The right is a peripheral.
 if SHIELD_CHEAKEE_RIGHT
 
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Cheakee"
+
+config ZMK_BLE
+    default y
+
 config ZMK_SPLIT
     default y
 
 config ZMK_SPLIT_ROLE_CENTRAL
-    default n
+    default y
+
+config SPI
+    default y
+
+config INPUT
+    default y
+
+config PMW3610
+    default y
+
+config ZMK_POINTING
+    default y
+
+config NFCT_PINS_AS_GPIOS
+    default y
 
 endif
