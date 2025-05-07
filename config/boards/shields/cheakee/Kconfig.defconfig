@@ -10,6 +10,9 @@ config ZMK_SPLIT_ROLE_CENTRAL
 config ZMK_POINTING
     default y
 
+config ZMK_SLEEP
+    default y
+
 endif
 
 # The right is a peripheral.
@@ -41,6 +44,9 @@ config ZMK_POINTING
     default y
 
 config NFCT_PINS_AS_GPIOS
+    default y
+
+config ZMK_SLEEP
     default y
 
 endif
