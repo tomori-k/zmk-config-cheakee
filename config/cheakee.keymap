@@ -42,6 +42,11 @@
             key-positions = <11 12>;
             layers = <0>;
         };
+
+        Ctrl+S {
+            bindings = <&ctrl_s>;
+            key-positions = <14 11>;
+        };
     };
 
     behaviors {
@@ -116,6 +121,22 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
+        };
+    };
+
+    macros {
+        ctrl_s: ctrl_s {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL>,
+                <&macro_tap>,
+                <&kp S>,
+                <&macro_press>,
+                <&kp LCTRL>;
+
+            label = "CTRL_S";
         };
     };
 
