@@ -43,7 +43,7 @@
             layers = <0>;
         };
 
-        Ctrl+S {
+        Ctrl_S {
             bindings = <&ctrl_s>;
             key-positions = <14 11>;
         };
