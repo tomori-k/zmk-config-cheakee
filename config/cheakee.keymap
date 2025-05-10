@@ -46,6 +46,7 @@
         Capsword {
             bindings = <&caps_word>;
             key-positions = <13 16>;
+            layers = <0>;
         };
     };
 
