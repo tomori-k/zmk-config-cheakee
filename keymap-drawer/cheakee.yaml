@@ -120,7 +120,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
-  - ''
+  - ⌃
   - ''
   - $$mdi:chevron-left$$
   - $$mdi:chevron-down$$
@@ -161,5 +161,5 @@ combos:
 - p: [11, 12]
   k: Tab
   l: [default]
-- p: [14, 11]
-  k: '&ctrl_s'
+- p: [13, 16]
+  k: '&caps_word'
