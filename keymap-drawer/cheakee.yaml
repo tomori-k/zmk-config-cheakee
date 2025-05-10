@@ -163,3 +163,4 @@ combos:
   l: [default]
 - p: [13, 16]
   k: '&caps_word'
+  l: [default]
