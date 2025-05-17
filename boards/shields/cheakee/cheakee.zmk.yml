@@ -2,7 +2,12 @@ file_format: "1"
 id: cheakee
 name: Cheakee
 type: shield
-url: https://github.com/tomori-k/cheakee/
+url: https://github.com/tomori-k/zmk-config-cheakee/
 requires: [seeeduino_xiao_ble]
 features:
   - keys
+  - pointer
+siblings:
+  - cheakee_left
+  - checkee_right
+
