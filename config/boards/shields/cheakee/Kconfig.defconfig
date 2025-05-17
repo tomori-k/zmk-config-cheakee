@@ -1,4 +1,4 @@
-# The left part is a central.
+# The left part is a peripheral.
 if SHIELD_CHEAKEE_LEFT
 
 config ZMK_SPLIT
@@ -12,7 +12,7 @@ config ZMK_POINTING
 
 endif
 
-# The right is a peripheral.
+# The right is a central.
 if SHIELD_CHEAKEE_RIGHT
 
 # Name must be less than 16 characters long!
@@ -41,6 +41,9 @@ config ZMK_POINTING
     default y
 
 config NFCT_PINS_AS_GPIOS
+    default y
+
+config ZMK_SLEEP
     default y
 
 endif
