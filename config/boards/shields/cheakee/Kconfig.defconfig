@@ -40,7 +40,4 @@ config PMW3610
 config ZMK_POINTING
     default y
 
-config NFCT_PINS_AS_GPIOS
-    default y
-
 endif
