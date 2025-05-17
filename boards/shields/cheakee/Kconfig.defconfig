@@ -40,7 +40,10 @@ config PMW3610
 config ZMK_POINTING
     default y
 
-config NFCT_PINS_AS_GPIOS
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
     default y
 
 endif
