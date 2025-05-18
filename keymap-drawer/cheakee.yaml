@@ -36,13 +36,13 @@ layers:
   - ''
   - {t: '$$mdi:keyboard-return$$', h: layer2}
   layer1:
-  - '~'
-  - '`'
-  - ESC
   - ''
-  - '&sys_reset'
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
   - ^
-  - ':'
+  - '`'
   - '['
   - ']'
   - '@'
@@ -62,7 +62,7 @@ layers:
   - +
   - ''
   - '|'
-  - ;
+  - '~'
   - '{'
   - '}'
   - ¥
@@ -115,7 +115,7 @@ layers:
   - ''
   - $$mdi:chevron-up$$
   - ''
-  - '&sys_reset'
+  - '&bootloader'
   - ''
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
@@ -164,3 +164,22 @@ combos:
 - p: [13, 16]
   k: '&caps_word'
   l: [default]
+- p: [1, 2]
+  k: ESC
+  l: [default]
+- p: [7, 8]
+  k: '"'
+  l: [default]
+- p: [6, 7]
+  k: ;
+  l: [default]
+- p: [13, 12]
+  k: Sft+;
+  l: [default, layer2]
+- p: [3, 2]
+  k: '*'
+  l: [default, layer2]
+- p: [26, 27]
+  k: ':'
+- p: [23, 22]
+  k: '!'
