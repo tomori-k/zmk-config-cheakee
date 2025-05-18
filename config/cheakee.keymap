@@ -4,13 +4,6 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
-    zip_mouse_layer: zip_mouse_layer {
-        compatible = "zmk,input-processor-temp-layer";
-        #input-processor-cells = <2>;
-        require-prior-idle-ms = <2000>;
-        excluded-positions = <11 12 13 14 16 17 18>;
-    };
-
     combos {
         compatible = "zmk,combos";
 
@@ -183,13 +176,5 @@
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &kp UP  &none  &sys_reset  &none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &kp DELETE  &trans  &trans
             >;
         };
-
-        mouse_layer {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans &trans
-            >;
-        };
     };
 };
-
-&trackball_listener { input-processors = <&zip_mouse_layer 4 2000>; };
