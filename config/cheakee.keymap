@@ -82,11 +82,13 @@
         Colon {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <26 27>;
+            layers = <0>;
         };
 
         Exclamation {
             bindings = <&kp LS(NUMBER_1)>;
             key-positions = <23 22>;
+            layers = <0>;
         };
     };
 
