@@ -1,0 +1,4 @@
+[submodule "zmk-pmw3610-driver"]
+	path = zmk-pmw3610-driver
+	url = https://github.com/tomori-k/zmk-pmw3610-driver.git
+	branch = feature/smoothing
