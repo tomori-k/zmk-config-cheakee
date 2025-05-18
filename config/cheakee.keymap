@@ -168,7 +168,7 @@
 
         layer1 {
             bindings = <
-&kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp ESCAPE  &none  &none  &kp EQUAL  &kp SINGLE_QUOTE  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LEFT_BRACKET  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp RS(NUMBER_6)  &kp RS(NUMBER_7)  &kp RS(NUMBER_8)  &kp RS(NUMBER_9)  &kp RS(INT1)  &kp SLASH  &kp LS(SINGLE_QUOTE)  &kp MINUS  &kp LS(SEMICOLON)  &none  &kp RS(INT3)  &kp SEMICOLON  &kp RS(RIGHT_BRACKET)  &kp RS(BACKSLASH)  &kp INT3  &trans  &trans  &trans  &trans
+&kp LS(EQUAL)  &kp LS(LEFT_BRACKET)  &kp ESCAPE  &none  &sys_reset  &kp EQUAL  &kp SINGLE_QUOTE  &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LEFT_BRACKET  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp RS(NUMBER_6)  &kp RS(NUMBER_7)  &kp RS(NUMBER_8)  &kp RS(NUMBER_9)  &kp RS(INT1)  &kp SLASH  &kp LS(SINGLE_QUOTE)  &kp MINUS  &kp LS(SEMICOLON)  &none  &kp RS(INT3)  &kp SEMICOLON  &kp RS(RIGHT_BRACKET)  &kp RS(BACKSLASH)  &kp INT3  &trans  &trans  &trans  &trans
             >;
         };
 
@@ -180,18 +180,16 @@
 
         layer3 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &kp UP  &none  &none  &none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &kp DELETE  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &kp UP  &none  &sys_reset  &none  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none  &none  &none  &none  &none  &none  &none  &none  &bt BT_CLR  &bt BT_CLR_ALL  &trans  &kp DELETE  &trans  &trans
             >;
         };
 
         mouse_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp A  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &mkp LCLK  &mkp MCLK  &mkp RCLK  &lt_arrow 3 MINUS  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &lt_scroll 3 M  &kp COMMA  &kp DOT  &kp SLASH  &kp BACKSPACE  &lt_thumb 1 SPACE  &none  &lt_thumb 2 ENTER
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LCTRL  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
 };
 
-&trackball_listener {
-    input-processors = <&zip_mouse_layer 4 2000>;
-};
+&trackball_listener { input-processors = <&zip_mouse_layer 4 2000>; };
