@@ -181,5 +181,7 @@ combos:
   l: [default, layer2]
 - p: [26, 27]
   k: ':'
+  l: [default]
 - p: [23, 22]
   k: '!'
+  l: [default]
