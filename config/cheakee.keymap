@@ -11,84 +11,98 @@
             bindings = <&kp LANGUAGE_2>;
             key-positions = <21 22>;
             layers = <0>;
+            require-prior-idle-ms = <150>;
         };
 
         Kana {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <27 28>;
             layers = <0>;
+            require-prior-idle-ms = <150>;
         };
 
         LeftClick {
             bindings = <&mkp LCLK>;
             key-positions = <16 17>;
             layers = <0>;
+            require-prior-idle-ms = <150>;
         };
 
         RightClick {
             bindings = <&mkp RCLK>;
             key-positions = <17 18>;
             layers = <0>;
+            require-prior-idle-ms = <150>;
         };
 
         MiddleClick {
             bindings = <&mkp MCLK>;
             key-positions = <18 16>;
             layers = <0>;
+            require-prior-idle-ms = <150>;
         };
 
         Tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
             layers = <0>;
+            require-prior-idle-ms = <150>;
         };
 
         Capsword {
             bindings = <&caps_word>;
             key-positions = <13 16>;
             layers = <0>;
+            require-prior-idle-ms = <150>;
         };
 
         Escape {
             bindings = <&kp ESC>;
             key-positions = <1 2>;
             layers = <0>;
+            require-prior-idle-ms = <150>;
         };
 
         DoubleQuote {
             bindings = <&kp LS(NUMBER_2)>;
             key-positions = <7 8>;
             layers = <0>;
+            require-prior-idle-ms = <150>;
         };
 
         Semicolon {
             bindings = <&kp SEMICOLON>;
             key-positions = <6 7>;
             layers = <0>;
+            require-prior-idle-ms = <150>;
         };
 
         Plus {
             bindings = <&kp LS(SEMI)>;
             key-positions = <13 12>;
             layers = <0 2>;
+            require-prior-idle-ms = <150>;
         };
 
         Asterisk {
             bindings = <&kp LS(SINGLE_QUOTE)>;
             key-positions = <3 2>;
             layers = <0 2>;
+            require-prior-idle-ms = <150>;
         };
 
         Colon {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <26 27>;
             layers = <0>;
+            require-prior-idle-ms = <150>;
         };
 
         Exclamation {
             bindings = <&kp LS(NUMBER_1)>;
             key-positions = <23 22>;
             layers = <0>;
+            require-prior-idle-ms = <150>;
         };
     };
 
