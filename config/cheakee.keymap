@@ -77,30 +77,9 @@
             require-prior-idle-ms = <150>;
         };
 
-        Plus {
-            bindings = <&kp LS(SEMI)>;
-            key-positions = <13 12>;
-            layers = <0 2>;
-            require-prior-idle-ms = <150>;
-        };
-
-        Asterisk {
-            bindings = <&kp LS(SINGLE_QUOTE)>;
-            key-positions = <3 2>;
-            layers = <0 2>;
-            require-prior-idle-ms = <150>;
-        };
-
         Colon {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <26 27>;
-            layers = <0>;
-            require-prior-idle-ms = <150>;
-        };
-
-        Exclamation {
-            bindings = <&kp LS(NUMBER_1)>;
-            key-positions = <23 22>;
             layers = <0>;
             require-prior-idle-ms = <150>;
         };
