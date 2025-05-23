@@ -208,15 +208,6 @@ combos:
 - p: [6, 7]
   k: ;
   l: [default]
-- p: [13, 12]
-  k: Sft+;
-  l: [default, layer2]
-- p: [3, 2]
-  k: '*'
-  l: [default, layer2]
 - p: [26, 27]
   k: ':'
-  l: [default]
-- p: [23, 22]
-  k: '!'
   l: [default]

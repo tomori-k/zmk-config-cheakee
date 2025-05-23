@@ -372,20 +372,8 @@ path.combo { stroke: #7f7f7f; }
 <text x="448" y="28" class="combo tap">;</text>
 </g>
 <g class="combo combopos-10">
-<rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
-<text x="168" y="84" class="combo tap">Sft+;</text>
-</g>
-<g class="combo combopos-11">
-<rect rx="6" ry="6" x="154" y="15" width="28" height="26" class="combo"/>
-<text x="168" y="28" class="combo tap">*</text>
-</g>
-<g class="combo combopos-12">
 <rect rx="6" ry="6" x="434" y="127" width="28" height="26" class="combo"/>
 <text x="448" y="140" class="combo tap">:</text>
-</g>
-<g class="combo combopos-13">
-<rect rx="6" ry="6" x="154" y="127" width="28" height="26" class="combo"/>
-<text x="168" y="140" class="combo tap">!</text>
 </g>
 </g>
 </g>
@@ -668,14 +656,6 @@ path.combo { stroke: #7f7f7f; }
 </g>
 <g transform="translate(420, 196)" class="key held keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="154" y="71" width="28" height="26" class="combo"/>
-<text x="168" y="84" class="combo tap">Sft+;</text>
-</g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="154" y="15" width="28" height="26" class="combo"/>
-<text x="168" y="28" class="combo tap">*</text>
 </g>
 </g>
 </g>
