@@ -11,14 +11,14 @@
             bindings = <&kp LANGUAGE_2>;
             key-positions = <21 22>;
             layers = <0>;
-            require-prior-idle-ms = <150>;
+            timeout-ms = <30>;
         };
 
         Kana {
             bindings = <&kp LANGUAGE_1>;
             key-positions = <27 28>;
             layers = <0>;
-            require-prior-idle-ms = <150>;
+            timeout-ms = <30>;
         };
 
         LeftClick {
@@ -26,6 +26,7 @@
             key-positions = <16 17>;
             layers = <0>;
             require-prior-idle-ms = <150>;
+            timeout-ms = <30>;
         };
 
         RightClick {
@@ -33,6 +34,7 @@
             key-positions = <17 18>;
             layers = <0>;
             require-prior-idle-ms = <150>;
+            timeout-ms = <30>;
         };
 
         MiddleClick {
@@ -40,6 +42,7 @@
             key-positions = <18 16>;
             layers = <0>;
             require-prior-idle-ms = <150>;
+            timeout-ms = <30>;
         };
 
         Tab {
@@ -87,6 +90,7 @@
         Scroll {
             bindings = <&mo 3>;
             key-positions = <16 17 18>;
+            layers = <0>;
         };
     };
 
