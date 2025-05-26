@@ -27,7 +27,7 @@ layers:
   - V
   - B
   - N
-  - {t: M, h: layer3}
+  - M
   - ','
   - .
   - /
@@ -116,7 +116,7 @@ layers:
   - $$mdi:chevron-up$$
   - ''
   - ''
-  - '4'
+  - layer4
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
@@ -140,7 +140,7 @@ layers:
   - $$mdi:backspace-reverse$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '4':
+  layer4:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,3 +211,5 @@ combos:
 - p: [26, 27]
   k: ':'
   l: [default]
+- p: [16, 17, 18]
+  k: layer3
