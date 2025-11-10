@@ -6,7 +6,7 @@ layers:
   - E
   - R
   - T
-  - '&bootloader'
+  - Y
   - U
   - I
   - O
@@ -115,7 +115,7 @@ layers:
   - ''
   - $$mdi:chevron-up$$
   - ''
-  - ''
+  - '&bootloader'
   - layer4
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
