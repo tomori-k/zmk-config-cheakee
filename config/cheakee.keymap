@@ -94,6 +94,11 @@
             key-positions = <16 17 18>;
             layers = <0>;
         };
+
+        Backspace {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <13 12>;
+        };
     };
 
     behaviors {
@@ -217,7 +222,7 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp A  &hmr_l LEFT_GUI S  &hmr_l LEFT_ALT D  &hmr_l_2 LEFT_SHIFT F  &hmr_l_2 LCTRL G  &hmr_r_2 RCTRL H  &hmr_r_2 RIGHT_SHIFT J  &hmr_r RIGHT_ALT K  &hmr_r RIGHT_GUI L  &lt_arrow 3 MINUS  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &lt_scroll 3 M  &kp COMMA  &kp DOT  &kp SLASH  &kp BACKSPACE  &lt_thumb 1 SPACE  &lt_thumb 2 ENTER  &none
+&kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp A  &hmr_l LEFT_GUI S  &hmr_l LEFT_ALT D  &hmr_l_2 LEFT_SHIFT F  &hmr_l_2 LCTRL G  &hmr_r_2 RCTRL H  &hmr_r_2 RIGHT_SHIFT J  &hmr_r RIGHT_ALT K  &hmr_r RIGHT_GUI L  &lt_arrow 3 MINUS  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N  &lt_scroll 3 M  &kp COMMA  &kp DOT  &kp SLASH  &lt_thumb 1 SPACE  &none  &lt_thumb 2 ENTER  &none
             >;
         };
 
