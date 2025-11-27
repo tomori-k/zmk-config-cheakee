@@ -31,8 +31,8 @@ layers:
   - ','
   - .
   - /
-  - $$mdi:backspace$$
   - {t: '$$mdi:keyboard-space$$', h: layer1}
+  - ''
   - {t: '$$mdi:keyboard-return$$', h: layer2}
   - ''
   layer1:
@@ -66,8 +66,8 @@ layers:
   - '{'
   - '}'
   - ¥
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   layer2:
@@ -214,3 +214,5 @@ combos:
 - p: [16, 17, 18]
   k: layer3
   l: [default]
+- p: [13, 12]
+  k: $$mdi:backspace$$
