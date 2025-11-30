@@ -520,10 +520,6 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="161" y="84" height="14" width="14.0" class="combo tap glyph mdi:backspace"/>
-</g>
 </g>
 </g>
 <g transform="translate(30, 632)" class="layer-layer2">
@@ -670,10 +666,6 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="161" y="84" height="14" width="14.0" class="combo tap glyph mdi:backspace"/>
-</g>
 </g>
 </g>
 <g transform="translate(30, 948)" class="layer-layer3">
@@ -805,10 +797,6 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(423, 220) rotate(-7.0)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="161" y="84" height="14" width="14.0" class="combo tap glyph mdi:backspace"/>
 </g>
 </g>
 </g>
@@ -952,10 +940,6 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(423, 220) rotate(-7.0)" class="key trans keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="154" y="78" width="28" height="26" class="combo"/>
-<use href="#mdi:backspace" xlink:href="#mdi:backspace" x="161" y="84" height="14" width="14.0" class="combo tap glyph mdi:backspace"/>
 </g>
 </g>
 </g>
