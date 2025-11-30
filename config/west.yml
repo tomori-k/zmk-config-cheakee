@@ -9,16 +9,16 @@ manifest:
   projects:
     - name: zmk
       remote: tomori-k
-      revision: avoid-input-split-deadlock
+      revision: v2025.11.30
       import: app/west.yml
     - name: zmk-keyboards-cheakee
       remote: tomori-k
-      revision: main
+      revision: v2025.11.30
     - name: zmk-pmw3610-driver
       remote: tomori-k
-      revision: main # TODO: バージョン固定
+      revision: v2025.11.30
     - name: zmk-behavior-soft-off-local
       remote: tomori-k
-      revision: main # TODO: バージョン固定
+      revision: v2025.11.30
   self:
     path: config

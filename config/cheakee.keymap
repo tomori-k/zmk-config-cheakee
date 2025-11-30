@@ -98,6 +98,7 @@
         Backspace {
             bindings = <&kp BACKSPACE>;
             key-positions = <13 12>;
+            layers = <0>;
         };
     };
 
