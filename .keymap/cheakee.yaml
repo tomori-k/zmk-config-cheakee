@@ -216,3 +216,4 @@ combos:
   l: [default]
 - p: [13, 12]
   k: $$mdi:backspace$$
+  l: [default]
