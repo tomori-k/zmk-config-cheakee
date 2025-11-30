@@ -27,7 +27,7 @@ layers:
   - V
   - B
   - N
-  - {t: M, h: layer3}
+  - M
   - ','
   - .
   - /
