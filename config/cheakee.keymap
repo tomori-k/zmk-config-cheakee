@@ -271,7 +271,7 @@
 };
 
 &caps_word {
-    continue-list = <INT1, UNDERSCORE, BACKSPACE, DELETE>;
+    continue-list = <INT1 UNDERSCORE BACKSPACE DELETE>;
 }
 
 &trackball_listener {
