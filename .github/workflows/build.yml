@@ -1,11 +1,11 @@
 name: Build ZMK firmware
 on:
   push:
+    branches:
+      - main
     paths:
       - "config/*"
       - "build.yaml"
-    tags:
-      - "*"
   pull_request:
   workflow_dispatch:
 
@@ -15,18 +15,26 @@ jobs:
 
   release:
     needs: build
-    if: github.ref_type == 'tag'
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
+      # 現在日時を UTC と JTC (日本時間) で生成して出力に渡す
+      - name: Generate timestamp
+        id: now
+        run: |
+          echo "date=$(TZ=Asia/Tokyo date +'%Y%m%d-%H%M')" >> "$GITHUB_OUTPUT"
+          echo "human=$(TZ=Asia/Tokyo date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
       - uses: actions/download-artifact@v4
         with:
           path: artifacts
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ github.ref_name }}
+          # 現在日時からタグ名を生成して、そのコミット (main の先頭) を対象にする
+          tag_name: release-${{ steps.now.outputs.date }}
+          target_commitish: ${{ github.sha }}
+          name: Firmware (${{ steps.now.outputs.human_jtc }})
           files: |
             artifacts/firmware/*.uf2
