@@ -23,7 +23,7 @@ manifest:
       remote: tomori-k
       revision: v2025.11.30
     - name: zmk-behavior-auto-capsword
-      remotem: tomori-k
+      remote: tomori-k
       revision: v2025.12.24
     - name: zmk-input-processor-keybind
       remote: zettaface
