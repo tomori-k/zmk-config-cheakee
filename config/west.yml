@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/tomori-k
     - name: zettaface
       url-base: https://github.com/zettaface
+    - name: kot149
+      url-base: https://github.com/kot149
   projects:
     - name: zmk
       remote: tomori-k
@@ -28,5 +30,8 @@ manifest:
     - name: zmk-input-processor-keybind
       remote: zettaface
       revision: main
+    - name: zmk-scroll-snap
+      remote: kot149
+      revision: v1
   self:
     path: config
