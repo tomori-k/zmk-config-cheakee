@@ -54,13 +54,6 @@
             require-prior-idle-ms = <150>;
         };
 
-        Capsword {
-            bindings = <&caps_word>;
-            key-positions = <13 16>;
-            layers = <0>;
-            require-prior-idle-ms = <150>;
-        };
-
         Escape {
             bindings = <&kp ESC>;
             key-positions = <1 2>;
@@ -103,6 +96,14 @@
     };
 
     behaviors {
+        auto_caps_word: auto_caps_word {
+            compatible = "zmk,behavior-auto-caps-word";
+            #binding-cells = <0>;
+            continue-list = <INT1 BACKSPACE DELETE>;
+            display-name = "Auto Caps Word";
+            auto-activate-upper-count = <3>;
+        };
+
         hmr_l: hmr_l {
             compatible = "zmk,behavior-hold-tap";
             label = "HMR_L";
@@ -268,10 +269,6 @@
         // max_threshold = <200>
         // max_pending_activations = <10>
     };
-};
-
-&caps_word {
-    continue-list = <INT1 UNDERSCORE BACKSPACE DELETE>;
 };
 
 &trackball_listener {
