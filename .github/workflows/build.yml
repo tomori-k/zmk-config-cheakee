@@ -1,8 +1,6 @@
 name: Build ZMK firmware
 on:
   push:
-    branches:
-      - main
     paths:
       - "config/*"
       - "build.yaml"
