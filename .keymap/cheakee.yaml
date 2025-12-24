@@ -27,7 +27,7 @@ layers:
   - V
   - B
   - N
-  - {t: M, h: layer3}
+  - M
   - ','
   - .
   - /
@@ -195,9 +195,6 @@ combos:
   o: 0.15
 - p: [11, 12]
   k: Tab
-  l: [default]
-- p: [13, 16]
-  k: '&caps_word'
   l: [default]
 - p: [1, 2]
   k: ESC
