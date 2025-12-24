@@ -6,6 +6,8 @@ manifest:
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: tomori-k
       url-base: https://github.com/tomori-k
+    - name: zettaface
+      url-base: https://github.com/zettaface
   projects:
     - name: zmk
       remote: tomori-k
@@ -20,5 +22,11 @@ manifest:
     - name: zmk-behavior-soft-off-local
       remote: tomori-k
       revision: v2025.11.30
+    - name: zmk-behavior-auto-capsword
+      remote: tomori-k
+      revision: v2025.12.24
+    - name: zmk-input-processor-keybind
+      remote: zettaface
+      revision: main
   self:
     path: config
